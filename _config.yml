@@ -1,3 +1,2 @@
-theme: jekyll-theme-merlot
-title: CeCe : College Chatbot
-description: The automated college application experience
+name: CeCe : College Chatbot
+markdown: kramdown
