@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	
+	<title>CECE College Chatbot</title>
+	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+
+<body class="home">
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="index.html"><img src="assets/images/logo.png"></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li class="active"><a href="#">Home</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div> 
+	<!-- /.navbar -->
+
+	<!-- Header -->
+	<header id="head">
+		<div class="container">
+			<div class="row">
+				<h1 class="lead">THE NEW WAY TO COLLEGE</h1>
+				<p class="tagline">A chatbot service made just for you.</p>
+			</div>
+		</div>
+	</header>
+	<!-- /Header -->
+
+	<!-- Intro -->
+	<div class="container text-center">
+		<br> <br>
+		<h2 class="thin">MEET CECE</h2>
+		<p class="text-muted">
+			An intelligent, quick, and curious virtual assistant designed to help all students with their application processes. This chatbot is very informational and easy to use! By asking the chatbot a question, you can get relevant information right away without having to surf the internet. CeCe is designed to learn information as it is used. Therefore, if the chatbot does not know the answer to your question at the moment, we will do our best to supply it with information it needs to answer the question in the future. Through the use of the chatbot, we hope to make the process easier to understand and more feasible to attain information. 
+		</p>
+	</div>
+	
+	<script>
+ 		 window.watsonAssistantChatOptions = {
+   		 integrationID: "6109ae17-e862-44d8-9a7e-30d4871c9c92", // The ID of this integration.
+   		 region: "us-south", // The region your integration is hosted in.
+    		serviceInstanceID: "ae1dedc6-43eb-41a1-9e01-c553840763e8", // The ID of your service instance.
+    		onLoad: function(instance) { instance.render(); }
+ 		 };
+ 		 setTimeout(function(){
+ 	 	  const t=document.createElement('script');
+  	 	 t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+   		 document.head.appendChild(t);
+ 	 });
+	</script>
+
+
+
+	<!-- /Intro-->
+		
+	
+		<div class="jumbotron top-space">
+			<h4>To use the chatbot, click the chat image in the space below. The service is still under development, so feel free to leave any suggestions regarding useability, visual appeal, or functionality! Thanks in advance.</h4>
+  		</div>
+
+</div>	<!-- /container -->
+	
+	<!-- Social links. @TODO: replace by link/instructions in template -->
+	<section id="social">
+		<div class="container">
+			<div class="wrapper clearfix">
+				<!-- AddThis Button BEGIN -->
+				<div class="addthis_toolbox addthis_default_style">
+				<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+				<a class="addthis_button_tweet"></a>
+				<a class="addthis_button_linkedin_counter"></a>
+				<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+				</div>
+				<!-- AddThis Button END -->
+			</div>
+		</div>
+	</section>
+	<!-- /social links -->
+
+
+	<footer id="footer" class="top-space">
+
+		<div class="footer1">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Contact</h3>
+						<div class="widget-body">
+								<a href="mailto:#">shriya.danam.028@k12.friscoisd.org</a><br>
+								<br>
+							</p>	
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+						</div>
+					</div>
+
+				</div> 
+			</div>
+		</div>
+
+	</footer>
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="assets/js/headroom.min.js"></script>
+	<script src="assets/js/jQuery.headroom.min.js"></script>
+	<script src="assets/js/template.js"></script>
+</body>
+</html>
